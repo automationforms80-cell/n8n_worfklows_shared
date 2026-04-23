@@ -16,8 +16,6 @@ If you want the simpler hosted version without setting everything up manually, t
 
 This repo is for people who want to run the workflow themselves in n8n, tweak prompts manually, and use their own API keys.
 
-If you want the no-setup version with more automation around context and editing, check [blumpo.com](https://blumpo.com).
-
 ## DIY workflow vs Blumpo
 
 ### This repo
@@ -31,7 +29,3 @@ If you want the no-setup version with more automation around context and editing
 - easier generation flow
 - more automation around brand / context
 - built for faster use
-
-## Built by
-
-Built by the founder of [blumpo.com](https://blumpo.com)
