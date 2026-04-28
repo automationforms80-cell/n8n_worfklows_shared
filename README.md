@@ -1,4 +1,4 @@
-# AI Ad Workflow with Claude + Nano Banana (BLUMPO.COM FOR A FULL TOOL)
+# AI Ad Workflow with Claude + Nano Banana + blumpo.com
 
 This is the DIY workflow I built for generating ads from a website, logo, and image inputs.
 
