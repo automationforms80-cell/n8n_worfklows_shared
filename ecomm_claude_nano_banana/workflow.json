@@ -426,7 +426,7 @@
               "id": "ed0f1505-82b6-4393-a0d8-088055137ec9",
               "name": "Website",
               "type": "string",
-              "value": "={{ $('Form Input').item.json.Website.startsWith(\"https\") ? $('Form Input').item.json.Website : \"https://\" + $json.Website }}"
+              "value": "={{ $('Form Input').item.json[\"Product URL\"].startsWith(\"https\") ? $('Form Input').item.json[\"Product URL\"] : \"https://\" + $('Form Input').item.json[\"Product URL\"] }}"
             },
             {
               "id": "1e463093-feb7-4cf9-beea-ba677a4a725d",
@@ -618,56 +618,7 @@
       }
     }
   ],
-  "pinData": {
-    "Form Input": [
-      {
-        "json": {
-          "Website": "https://wkdzik.pl/dzik-energy-zero-kalorii-sour-forest-fruits",
-          "Logo": [
-            {
-              "filename": "medium_e0493762-75de-4bd5-beb3-3894d32bdb5a.webp",
-              "mimetype": "image/webp",
-              "size": 3954
-            }
-          ],
-          "Product photo": [
-            {
-              "filename": "dzik-energy-sour-forest-fruits.jpg",
-              "mimetype": "image/jpeg",
-              "size": 107845
-            }
-          ],
-          "submittedAt": "2026-04-30T11:39:16.571+02:00",
-          "formMode": "test"
-        },
-        "binary": {
-          "Logo": {
-            "mimeType": "image/webp",
-            "fileType": "image",
-            "fileExtension": "webp",
-            "data": "filesystem-v2",
-            "fileName": "medium_e0493762-75de-4bd5-beb3-3894d32bdb5a.webp",
-            "id": "filesystem-v2:workflows/N1GF6OeNGardy6C9/executions/temp/binary_data/ec759faa-565c-4af9-8b5d-e53a0c3574c2",
-            "fileSize": "3.95 kB",
-            "bytes": 3954
-          },
-          "Product_photo": {
-            "mimeType": "image/jpeg",
-            "fileType": "image",
-            "fileExtension": "jpg",
-            "data": "filesystem-v2",
-            "fileName": "dzik-energy-sour-forest-fruits.jpg",
-            "id": "filesystem-v2:workflows/N1GF6OeNGardy6C9/executions/temp/binary_data/35de42f5-894d-4420-9cc0-053f6d2a98c2",
-            "fileSize": "108 kB",
-            "bytes": 107845
-          }
-        },
-        "pairedItem": {
-          "item": 0
-        }
-      }
-    ]
-  },
+  "pinData": {},
   "connections": {
     "Text extract": {
       "main": [
@@ -947,11 +898,11 @@
     "binaryMode": "separate",
     "availableInMCP": false
   },
-  "versionId": "0f5bd2aa-e524-4fe1-875f-a25533e10345",
+  "versionId": "e7aeae68-70e3-408f-b781-fece2ebc3292",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": ""
   },
-  "id": "",
+  "id": "N1GF6OeNGardy6C9",
   "tags": []
 }
